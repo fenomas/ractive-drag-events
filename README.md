@@ -32,7 +32,7 @@ the element's `draggable` attribute.
 	}
 ```
 
-See `example/index.html` for a full example.
+See [live demo](http://andyhall.github.io/ractive-drag-events/example/) or `example/index.html` for a full example.
 
 
 ## Event Object
