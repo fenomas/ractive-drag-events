@@ -27,6 +27,7 @@
 	<!-- ractive container element -->
 	Drag item A to item C...
 	<br><br>
+	
 	<div id="container"></div>
 	
 	<br><br>
@@ -77,6 +78,11 @@
 	// event handler
 	var startPath = ''
 	ractive.on('dragndrop', function(event) {
+		
+		// Firefox doesn't let drags happen unless data gets set
+		if (event.type == 'start') {
+			event.original.dataTransfer.setData('text/plain', 'Fnord!')
+		}
 		
 		// sample code to only allow dragging item A to item C 
 		if (event.type=='start') {
