@@ -1,0 +1,14 @@
+{
+  "name": "ractive-drag-events",
+  "version": "0.1.0",
+  "description": "HTML5 drag/drop proxy events for a Ractive element",
+  "main": "ractive-drag-events.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Hall",
+  "license": "MIT"
+}
