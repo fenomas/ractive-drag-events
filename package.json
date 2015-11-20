@@ -1,12 +1,12 @@
 {
   "name": "ractive-drag-events",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "HTML5 drag/drop proxy events for a Ractive element",
   "main": "ractive-drag-events.js",
   "directories": {
     "example": "example"
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "ractive": "~0"
   },
   "scripts": {
